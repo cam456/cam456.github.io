@@ -34,6 +34,7 @@ body{
 
 .nav{
     top: 0px; 
+    padding-top: 10px;
     position: fixed;
     width: 100%;
     font-size: 20px;
@@ -183,6 +184,12 @@ body{
 
 @media screen and (min-width: 768px) {
 
+    .nav{
+        height: 35px;
+        padding-top: 8px;
+        background-position: 200px 200px;
+        background: linear-gradient(#FCECC9 80%, rgba(255, 192, 203, 0)100%);
+    }
     .menu-hamburger{
         display: none;
     }
