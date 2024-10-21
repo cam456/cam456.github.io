@@ -427,3 +427,25 @@ main{
     width: auto;
     margin-right: 10px ;
 }
+
+
+.bonjour{
+    margin-top: 2vh;
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: barlowmedium;
+}
+
+.textdescript{
+    display: flex;
+    font-size: 12px;
+    flex-direction: column;
+    text-align: center;
+    font-family: barlowmedium;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
