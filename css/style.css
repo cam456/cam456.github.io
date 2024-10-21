@@ -377,8 +377,6 @@ main{
 }
 
 .titrecontact{
-    position: absolute;
-    height: auto;
     display: flex;
     justify-content: center;
     color: var(--mauve);
@@ -392,8 +390,6 @@ main{
 
 
 .informationpropos{
-    position: absolute;
-    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
