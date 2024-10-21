@@ -141,7 +141,7 @@ body{
 /*---------- NAV BURGER ----------*/
 .nav__list_burger{
     margin-top: 0px;
-    background-image: linear-gradient(to right, #afbdea00 70%,#AFBDEA);
+    background-image: linear-gradient(to right, #afbdea00 50%,#AFBDEA);
     transform:translate(1700px, 4px) ;
     display: flex;
     font-family: barlowmedium;
@@ -164,7 +164,6 @@ body{
     color: var(--bleumauve);
     text-decoration: none;
     transition:0.3s;
-    transition:backdrop-filter 0.3s;
 }
 
 .nav__item_burger{
@@ -217,6 +216,7 @@ main{
 
 
 .titre1{
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -368,7 +368,7 @@ main{
     justify-content: center;
     font-family:bagel ;
     color: var(--jaune);
-    text-shadow: 2px 2px 3px rgba(16, 3, 20, 0.685);
+    text-shadow: 2px 2px 3px rgba(16, 3, 20, 0.39);
     font-size: 35px ;
 }
 
@@ -379,15 +379,28 @@ main{
     font-size: 25px;
     font-family: bagel;
     z-index: 7;
-    margin-top: -28vh;
+    margin-top: -22vh;
     
 }
 
+
+
 .informationpropos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
     font-family: barlowmedium;
     z-index: 7;
+    margin-top: -10%;
+    color: var(--mauve);
     
 }
+
+.info{
+    height: 20px;
+  }
 
 .apropoimg{
     display: flex;
@@ -405,3 +418,8 @@ main{
 }
 
 
+.infoimg{
+    height: 15px;
+    width: auto;
+    margin-right: 10px ;
+}
