@@ -33,13 +33,12 @@ body{
 /*----------------------- NAV -----------------------*/
 
 .nav{
-    top: 20px; 
-    left: 0;
-    right: 0;
+    top: 0px; 
     position: fixed;
-    width: 97%;
+    width: 100%;
     font-size: 20px;
     z-index: 9999;
+    background: linear-gradient(#FCECC9 16%, rgba(255, 192, 203, 0)90%);
 }
 
 .star1{
@@ -52,9 +51,8 @@ body{
 }
 .nom{
     font-family: barlowmedium;
-    color: var(--bleumauve);
+    color: var(--mauvenoir);
     float: inline-start;
-    backdrop-filter: blur(10px);
 }
 
 .nav__list{
@@ -107,11 +105,10 @@ body{
 }
 
 .menu-hamburger span{
-    backdrop-filter: blur(4px);
     margin-bottom: 3px;
     width: 20px;
     height: 4px;
-    background-color: var(--bleumauve);
+    background-color: var(--mauvenoir);
     border-radius: 10px;
     margin-top: 3px;
     display: flex;
@@ -141,7 +138,7 @@ body{
 /*---------- NAV BURGER ----------*/
 .nav__list_burger{
     margin-top: 0px;
-    background-image: linear-gradient(to right, #afbdea00 50%,#AFBDEA);
+    background-image: linear-gradient(to right, #afbdea00 50%,var(--jaune));
     transform:translate(1700px, 4px) ;
     display: flex;
     font-family: barlowmedium;
@@ -161,7 +158,7 @@ body{
     border-width: 5px;
     border-style: solid;
     border-radius: 10px;
-    color: var(--bleumauve);
+    color: var(--mauvenoir);
     text-decoration: none;
     transition:0.3s;
 }
