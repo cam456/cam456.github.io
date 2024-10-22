@@ -376,28 +376,29 @@ main{
     font-size: 35px ;
 }
 
-.titrecontact{
-    display: flex;
-    justify-content: center;
-    color: var(--mauve);
-    font-size: 25px;
-    font-family: bagel;
-    z-index: 7;
-    margin-top: -22vh;
-    
-}
 
 
-
-.informationpropos{
+.apropoimg{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.titrecontact{
+    color: var(--mauve);
+    font-size: 25px;
+    font-family: bagel;
+    z-index: 7;
+    height: 20vh;
+    margin-top: -29vh;
+    margin-bottom: -10vh;
+}
+.informationpropos{
     font-size: 10px;
     font-family: barlowmedium;
-    z-index: 7;
-    margin-top: -10%;
     color: var(--mauve);
     
 }
@@ -406,33 +407,28 @@ main{
     height: 20px;
   }
 
-.apropoimg{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-}
-
 .imgmoicontact{
-    background-color: #FCECC9;
     border-style: solid;
     width: 80%;
     border-top:none ;
     border-left: none;
     border-right: none;
-    border-width: 160px;
+    border-width: 220px;
     border-radius: 25px;
     border-color: var(--jaune);
-
 }
+
 
 
 .infoimg{
     height: 15px;
     width: auto;
     margin-right: 10px ;
+}
+
+
+.moidescription{
+    height: contain;
 }
 
 
