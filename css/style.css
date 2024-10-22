@@ -413,11 +413,18 @@ main{
     align-items: center;
     text-align: center;
     width: 100%;
-    z-index: 2 ;
 }
 
 .imgmoicontact{
+    background-color: #FCECC9;
+    border-style: solid;
     width: 80%;
+    border-top:none ;
+    border-left: none;
+    border-right: none;
+    border-width: 160px;
+    border-radius: 25px;
+    border-color: var(--jaune);
 
 }
 
