@@ -377,7 +377,6 @@ main{
 }
 
 
-
 .apropoimg{
     display: flex;
     flex-direction: column;
@@ -391,10 +390,7 @@ main{
     color: var(--mauve);
     font-size: 25px;
     font-family: bagel;
-    z-index: 7;
-    height: 20vh;
-    margin-top: -29vh;
-    margin-bottom: -10vh;
+ 
 }
 .informationpropos{
     font-size: 10px;
