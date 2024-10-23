@@ -497,80 +497,69 @@ text-decoration: none;
 
 @media screen and (min-width: 1600px) {
     .imgmoicontact{
-       
-        margin-left: 50%;
+        margin-top: -32vh;
+        margin-right: 5vh ;
+        margin-left: 45%;
         border-style: solid;
-        width: 25%;
+        width: 30%;
         border-bottom: none;
         border-left: none;
         border-top:none ;
-        border-width: 260px;
+        border-width: 350px;
         border-radius: 25px;
     } 
 
     .titreapropos{
-        display: flex;
-        justify-content: flex-start;
-        font-family:bagel ;
-        color: var(--jaune);
-        text-shadow: 2px 2px 3px rgba(16, 3, 20, 0.39);
-        font-size: 90px ;
+        font-size: 80px;
         width: 50%;
     }
     
-    
-    .contactcontainer{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        flex-direction: column;
-        width: 100%;
-    }
+
     
     .titrecontact{
-        margin-top: -10px;
-        margin-bottom: -30px;
-        color: var(--mauve);
-        font-size: 30px;
+        font-size: 37px;
         font-family: bagel;
      
     }
     
 
     .informationpropos{
+        font-size: 20px;
         display: block;
-        margin: 0;
-        font-size: 10px;
-        font-family: barlowmedium;
-        color: var(--mauve);
-        white-space: nowrap;
+        margin-top: 10vh;
+         
     }
     
     .informationpropos:visited{
-    text-decoration: none;
+        text-decoration: none;
     }
     
     .info{
-        margin: -10px;
-        padding: 0;
-        height: 20px;
+        height: 60px;
+        
       }
     
     .infoimg{
-        height: 15px;
+        height: 35px;
         width: auto;
         margin-right: 10px ;
+        
     }
     
     .othercontactcontainer{
-        margin-top: -235px;
+        margin-left: 72%;
+        margin-top: -30%;
+       
     
     }
     
     .moidescription{
         height: contain;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        transform: translate(50px, -350px);
+        
     }
     
     
