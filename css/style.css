@@ -429,16 +429,7 @@ main{
 }
 
 .othercontactcontainer{
-    position: absolute;
-    top: 550px;
-    margin-left: 0;
-    margin-right: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
+    margin-top: -235px;
 
 }
 
