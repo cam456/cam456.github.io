@@ -388,9 +388,10 @@ main{
 }
 
 .titrecontact{
-    margin-bottom: -15px;
+    margin-top: -10px;
+    margin-bottom: -30px;
     color: var(--mauve);
-    font-size: 25px;
+    font-size: 30px;
     font-family: bagel;
  
 }
