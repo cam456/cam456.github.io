@@ -447,9 +447,11 @@ main{
     justify-content: center;
     align-items: center;
     font-family: barlowmedium;
+    color: var(--mauvenoir);
 }
 
 .textdescript{
+    color: var(--mauvenoir);
     display: flex;
     font-size: 12px;
     flex-direction: column;
