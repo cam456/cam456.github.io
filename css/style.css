@@ -469,7 +469,10 @@ text-decoration: none;
 
 
 @media screen and (min-width: 768px) {
-    
+    .titreapropos{
+        font-size: 60px;
+        
+    }
     .imgmoicontact{
         border-width: 300px;
     }
@@ -577,6 +580,7 @@ text-decoration: none;
     font-family: bagel;
     color: var(--bleu);
 }
+
 .titrelangue{
     font-size: 20px;
     text-align: center;
@@ -618,7 +622,6 @@ text-decoration: none;
     border-top-left-radius:25%;
     border-bottom-left-radius: 25%;
     box-shadow: 2px 2px 3px rgba(16, 3, 20, 0.39);
-
 }
 
 .francais{
@@ -695,4 +698,49 @@ text-decoration: none;
     flex-direction: column;
     transform: translate(25%, 0%);
     font-family: barlowmedium;
+}
+
+@media screen and (min-width: 768px) {
+
+    .titrecv{
+        font-size: 60px;
+    }
+
+    .titrelangue{
+        margin-top: -10vh;
+        font-size: 35px;
+    }
+    
+    .langues{
+        font-size: 25px;
+    }
+
+
+
+    .titreexperience{
+        font-size: 35px;
+    }
+
+    .surete{
+        font-size: 20px;
+    }
+
+    .pointsurete{
+        font-size: 20px;
+    }
+
+    .annemetro{
+        font-size: 26px;
+    }
+
+    .annesurete{
+        font-size: 26px;
+    }
+
+    .annedesjardin{
+        font-size: 26px;
+    }
+
+
+
 }
