@@ -580,7 +580,7 @@ text-decoration: none;
     font-family: bagel;
     color: var(--bleu);
 }
-
+/*--------- titre --------*/
 .titrelangue{
     font-size: 20px;
     text-align: center;
@@ -602,6 +602,9 @@ text-decoration: none;
     text-shadow: 1px 1px 2px rgba(16, 3, 20, 0.39);
     color: var(--mauvenoir);
 }
+
+
+/*--------- langues --------*/
 
 .langues{
     display: flex;
@@ -633,6 +636,8 @@ text-decoration: none;
     padding-right: 2%;
     padding-left: 5%;
 }
+
+/*--------- experience --------*/
 
 .experiencecontainer{
     color: var(--mauvenoir);
@@ -696,12 +701,48 @@ text-decoration: none;
 .pointsurete{
     font-size: 12px;
     display: flex;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
-    transform: translate(25%, 0%);
     font-family: barlowmedium;
 }
 
+
+/*--------- education --------*/
+
+.titreeducation{
+font-size: 20px;
+text-align: center;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: barlowextrabold;
+color: var(--mauvenoir);
+text-shadow: 1px 1px 2px rgba(16, 3, 20, 0.39);
+}
+
+.educationcontainer{
+    margin-top: 4vh;
+    color: var(--mauvenoir);
+    background-color: var(--bleu);
+    border-radius: 25px;
+    width: 90%;
+    box-shadow: 2px 2px 3px rgba(16, 3, 20, 0.39);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.education{
+    font-size: 10px;
+    position: relative;
+    padding: 10px;
+    margin: auto;
+}
+
+
+
+
+/*--------- ipad screen --------*/
 @media screen and (min-width: 768px) {
 
     .titrecv{
@@ -716,8 +757,6 @@ text-decoration: none;
     .langues{
         font-size: 25px;
     }
-
-
 
     .titreexperience{
         font-size: 35px;
@@ -742,7 +781,6 @@ text-decoration: none;
     .annedesjardin{
         font-size: 26px;
     }
-
 
 
 }
