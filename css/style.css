@@ -387,8 +387,6 @@ main{
 }
 
 .titrecontact{
-    margin-top: -10px;
-    margin-bottom: -30px;
     color: var(--mauve);
     font-size: 30px;
     font-family: bagel;
@@ -397,27 +395,18 @@ main{
 
 .imgmoicontact{
     
-    border-style: solid;
-    width: 80%;
-    border-top:none ;
-    border-left: none;
-    border-right: none;
-    border-width: 220px;
-    border-radius: 25px;
-    border-color: var(--jaune);
+
 }
 
 .informationpropos{
-    display: block;
-    margin: 0;
+    
     font-size: 10px;
     font-family: barlowmedium;
     color: var(--mauve);
-    white-space: nowrap;
 }
 
 .informationpropos:visited{
-text-decoration: none;
+    text-decoration: none;
 }
 
 .info{
@@ -468,6 +457,7 @@ text-decoration: none;
 }
 
 
+/*---------- 
 @media screen and (min-width: 768px) {
     .titreapropos{
         font-size: 60px;
@@ -499,18 +489,20 @@ text-decoration: none;
 
 
 @media screen and (min-width: 1600px) {
-    .imgmoicontact{
-        margin-top: -32vh;
-        margin-right: 5vh ;
-        margin-left: 45%;
-        border-style: solid;
-        width: 30%;
-        border-bottom: none;
-        border-left: none;
-        border-top:none ;
-        border-width: 350px;
-        border-radius: 25px;
+
+    .apropos{ 
+     
     } 
+    .imgmoicontact{
+        
+        display: flex;
+        flex-direction: row;
+    } 
+
+    .othercontactcontainer{
+     
+       
+    }
 
     .titreapropos{
         font-size: 80px;
@@ -545,29 +537,21 @@ text-decoration: none;
     .infoimg{
         height: 35px;
         width: auto;
-        margin-right: 10px ;
         
     }
-    
-    .othercontactcontainer{
-        margin-left: 72%;
-        margin-top: -30%;
-       
-    
-    }
+
     
     .moidescription{
         height: contain;
         width: 40%;
         display: flex;
         flex-direction: column;
-        transform: translate(50px, -350px);
         
     }
     
     
 }
-
+----------*/
 
 /*-------------- CV -------------*/
 
