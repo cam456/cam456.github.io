@@ -564,3 +564,135 @@ text-decoration: none;
     
     
 }
+
+
+/*-------------- CV -------------*/
+
+.titrecv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(16, 3, 20, 0.39);
+    font-size: 35px ;
+    font-family: bagel;
+    color: var(--bleu);
+}
+.titrelangue{
+    font-size: 20px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: barlowextrabold;
+    color: var(--mauvenoir);
+    text-shadow: 1px 1px 2px rgba(16, 3, 20, 0.39);
+}
+
+.titreexperience{
+    font-size: 20px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: barlowextrabold;
+    text-shadow: 1px 1px 2px rgba(16, 3, 20, 0.39);
+    color: var(--mauvenoir);
+}
+
+.langues{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    font-family: barlowmedium;
+    
+}
+
+.anglais{
+    padding: 1%;
+    padding-right: 5%;
+    padding-left: 2%;
+    background-color: var(--bleu);
+    border-top-left-radius:25%;
+    border-bottom-left-radius: 25%;
+    box-shadow: 2px 2px 3px rgba(16, 3, 20, 0.39);
+
+}
+
+.francais{
+    padding: 1%;
+    padding-right: 2%;
+    padding-left: 5%;
+    background-color: var(--bleu);
+    border-top-right-radius:25%;
+    border-bottom-right-radius: 25%;
+    box-shadow: 2px 2px 3px rgba(16, 3, 20, 0.39);
+}
+
+.experiencecontainer{
+    background-color: var(--bleu);
+    border-radius: 25px;
+    width: 90%;
+    margin: auto;
+    
+}
+
+.surete{
+    font-size: 10px;
+    position: relative;
+    padding: 10px;
+}
+
+
+.droitnomsurete{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.annesurete{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: flex-end;
+    font-family: barlowextrabold;
+    font-size: 15px;
+    margin-right: 12%;
+    margin-left: 5%;
+}
+
+.annemetro{
+    font-family: barlowextrabold;
+    font-size: 15px;
+    margin-right: 12%;
+    margin-left: 5%;
+}
+
+.annedesjardin{
+    font-family: barlowextrabold;
+    font-weight: 200;
+    font-size: 15px;
+    margin-right: 12%;
+    margin-left: 5%;
+}
+
+.nomsurete{
+    margin-right: 5px;
+    font-family: barlowmedium;
+}
+
+.nomposte{
+    font-family: barlowmedium;
+}
+
+.pointsurete{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transform: translate(25%, 0%);
+    font-family: barlowmedium;
+}
