@@ -610,6 +610,7 @@ text-decoration: none;
     align-items: center;
     text-align: center;
     position: relative;
+    color: var(--mauvenoir);
     font-family: barlowmedium;
     background-color: var(--bleu);
     border-radius: 25px;
@@ -627,12 +628,14 @@ text-decoration: none;
 }
 
 .francais{
+    
     padding: 1%;
     padding-right: 2%;
     padding-left: 5%;
 }
 
 .experiencecontainer{
+    color: var(--mauvenoir);
     background-color: var(--bleu);
     border-radius: 25px;
     width: 90%;
@@ -644,11 +647,12 @@ text-decoration: none;
     font-size: 10px;
     position: relative;
     padding: 10px;
+    margin: auto;
 }
 
 
 .droitnomsurete{
-    
+    margin: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
