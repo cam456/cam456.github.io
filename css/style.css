@@ -317,46 +317,46 @@ main{
 }
 
 
-@media screen and (min-width: 1600px) {
+/*-----@media screen and (min-width: 1600px) {
 
     .side_titre_image1{
-        display: inline-block;
         width: 100%;
     }
 
-    .titre1{
-        width: 50%;
+    .side_titre_img {
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .titre1 {
+        margin-top: 0px;
+    }
+    
+    .moi1 {
+        
+    }
+    
+    .titreimage1 img, .moiimage1 img {
+        max-width: 100%;/
+        height: auto; 
+    }  
+    }
+    .petittext{
+    
+        width: 100%;
+    }
+    
+    .quoteartist{
+        font-size: 500px;
         display: flex;
         flex-direction: row;
-        margin-left: 48%;
-        margin-top: -12%;
+        align-items: flex-end;
+        justify-content: space-between;
     }
     
-   
-    
-    .moi1{
-        width: 50%;
-        margin-top: -16%;
-    }
-    
-    .moiimage1{
-        max-width: 60%;
-        margin-top: auto;
-    }
-    
-    .petittext{
-        display: flex;
-        margin-left: 5%;
-        width: 100%;
-    }
-    
-
-    .insidequoteartist{
-        margin-left: 45%;
-        margin-top: -45%;
-    }
 }
-
+--*/
 
 /*---------- A PROPOS ----------*/
 
