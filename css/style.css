@@ -1299,14 +1299,14 @@ padding-left: 2%;
     display: flex;
     flex-direction: column;
     background-size: cover;
-    background-image: linear-gradient( var(--jaune)5%, var(--bleu)95%);
+    background-image: linear-gradient( var(--jaune)-5%, var(--bleu));
 }
 
 
 .projetprojet{
 
     font-family:bagel ;
-    color: var(--jaune);
+    color: var(--mauvepale);
     text-shadow: 2px 2px 3px rgba(16, 3, 20, 0.39);
     font-size: 6vh ;
     height: auto;
@@ -1328,16 +1328,14 @@ padding-left: 2%;
     max-height: 50vh;
 }
 
-.pg1test{
-    width: auto;
-    height: 100%;
-    max-height: 20vh;
-    
+.containerprojet1{
+    background-color: var(--jaune);
+    padding-top: 2vh;
+    padding-bottom: 1.5vh;
 }
-.videosprojet3{
-    background-color: #16b42b73;
-}
-/*------------ try1 -----------*/
+
+
+/*------------ swipper -----------*/
 
 .swiper-container {
     width: 100%;
@@ -1349,10 +1347,10 @@ padding-left: 2%;
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    
     
   }
 
@@ -1363,4 +1361,25 @@ padding-left: 2%;
     object-fit: cover;
     justify-content: center;
     align-items: center;
+  }
+
+
+  /*------------ titre+ description projets -----------*/
+
+  .titreprojet{
+    display: flex;
+    justify-content: center;
+    font-family: bagel;
+    font-size: 3.5vh;
+    color: var(--mauvenoir);
+  }
+
+  .descriptionprojet{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: barlowmedium;
+    font-size: 2.5vh;
+    color: var(--mauvenoir);
+    padding: 2vh;
   }
