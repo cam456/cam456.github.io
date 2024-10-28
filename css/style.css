@@ -1302,6 +1302,25 @@ padding-left: 2%;
     background-image: linear-gradient( var(--jaune)-5%, var(--bleu));
 }
 
+.pg1video{
+    width: 30vh;
+}
+
+.tiktok{
+    display: flex;
+    justify-content: center;
+    padding-left: 5vh;
+}
+
+  .containerprojet1{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: var(--jaune);
+    padding-top: 2vh;
+    padding-bottom: 1.5vh;
+}
+ 
+
 
 .projetprojet{
 
@@ -1322,17 +1341,9 @@ padding-left: 2%;
     min-height: 10vh;
 }
 
-.pg1video{
-    width: auto;
-    height: 100%;
-    max-height: 50vh;
-}
 
-.containerprojet1{
-    background-color: var(--jaune);
-    padding-top: 2vh;
-    padding-bottom: 1.5vh;
-}
+
+
 
 .pg3video3{
     display: flex;
@@ -1377,7 +1388,21 @@ padding-left: 2%;
     align-items: center;
   }
 
+/*------------ swipper2 -----------*/
+  .imgaquatique{
+    width: 45vh;
+  }
 
+  .conceptaquatique{
+    display: flex;
+    justify-content: center;
+  }
+
+  .aquatiqueswipper{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+ 
   /*------------ titre+ description projets -----------*/
 
   .titreprojet{
