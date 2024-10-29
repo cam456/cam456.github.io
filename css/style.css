@@ -1654,6 +1654,12 @@ padding-left: 2%;
    /*------------ footer -----------*/
 
    .footer{
-    height: 500px;
+    height: fit-content;
     background-color: var(--jaune);
+  }
+
+  .imgfooter{
+    height: auto;
+    width: 100%;
+    max-width: 30vh;
   }
