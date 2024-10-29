@@ -1653,13 +1653,78 @@ padding-left: 2%;
   
    /*------------ footer -----------*/
 
-   .footer{
+   footer{
     height: fit-content;
     background-color: var(--jaune);
+    
   }
 
+  .imgfoot{ 
+    padding-bottom: 2vh;
+  }
   .imgfooter{
+    box-shadow: 2px 2px 3px rgba(16, 3, 20, 0.39);
+    border-radius: 20px;
     height: auto;
     width: 100%;
     max-width: 30vh;
   }
+
+  .titremecontacter{
+    color: var(--bleumauve);
+    font-family: bagel;
+    font-size: 3.5vh;
+    text-shadow: 2px 2px 3px rgba(16, 3, 20, 0.39);
+}
+
+.titrenavigation{
+    font-family: barlowextrabold;
+    color: var(--mauvenoir);
+}
+
+.footers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.navigation2{
+    font-family: barlowmedium;
+    color: var(--mauvenoir);
+    font-size: 3vh;
+    
+}
+
+.navfooter{
+    text-decoration: none;
+    color: var(--mauvenoir);
+    border-color: var(--jaune);
+    border-radius: 25px;
+    border-width: 1.2vh;
+    border-style: solid;
+}
+
+.navfooter:visited{
+    text-decoration: none;
+}
+
+.navfooter:hover{
+    border-color: var(--mauvenoir);
+    background-color: var(--mauvenoir);
+    color: var(--jaune);
+}
+
+.contourfooternav{
+    padding: 1.5vh;
+}
+
+.info .footer{
+    text-decoration: none;
+}
+
+.info .footer:visited{
+    text-decoration: none;
+}
