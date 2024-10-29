@@ -293,22 +293,20 @@ main{
     height: auto;
     
 }
+.quoteartiste2{
+    display: none;
+}
 
-.quoteartist{
-    padding-left: 12px;
-    padding-right: 12px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.quoteartiste{
     text-align: center;
-    font-style: italic;
-    margin-top: 0;
-    width: 0%;
-    padding-bottom: 50px; 
+    justify-content: center;
+    display: flex;
+    padding-bottom: 2vh;
+    
 }
 
 .insidequoteartist{
-    font-size: 13px;
+    font-size: 2vh;
     font-family: barlowmedium;
     color: var(--mauve);
     width: 100%;
@@ -338,20 +336,22 @@ main{
         padding-right: 10vh;
     }
 
-    .insidequoteartist{
-        font-size: 1.5vh;
-        width: 100%;
-        max-width: 1000px;
-        height: auto;
-    }
-
-    .quoteartist{
-        padding-left: 30px;
-        padding-right: 30px;
-    
+    .quoteartiste{
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        padding-bottom: 2vh;
         
     }
     
+    .insidequoteartist{
+        font-size: 2.5vh;
+        font-family: barlowmedium;
+        color: var(--mauve);
+        width: 100%;
+        max-width: 80vh;
+        height: auto;
+    }
     .petittext{
         font-size: 30px;
     }
@@ -381,19 +381,22 @@ main{
         margin-top: 0px; 
     }
     
+    .titreimageencadrement{
+        max-width: 80vh;
+    }
     .moiimg{
         max-width: 50vh;
         
     }
     .titreimg{
-        max-width: 50vh;
+        max-width: 80vh;
     }
 
     .petittext{
         font-size: 2vh;
         padding-left: 5px;
         padding-right: 5px;
-        transform: translate(-10vh, -6vh);
+        transform: translate(-25vh, -6vh);
     }
 
 
@@ -401,19 +404,39 @@ main{
         max-width: 20vh;
           
     }
-
-    .quoteartist{
+    .quoteartiste2{
+        padding-left: 12px;
+        padding-right: 12px;
         display: flex;
         flex-direction: row;
-        justify-content: flex-end;
-        width: 100%;
+        justify-content: center;
+        text-align: center;
+        font-style: italic;
+        margin-top: 0;
+        width: 0%;
+        padding-bottom: 50px; 
+    }
+    
+    .quoteartiste2{
+        width: 90%;
+        
+        
+        
+    }
+    
+    .insidequoteartist2{
+        font-size: 1.8vh;
+        font-family: barlowmedium;
+        font-style: italic;
+        color: var(--mauve);
+        
+    }
+
+    .quoteartiste{
+        display: none;
     }
     /*---------- A refaire ----------*/
-    .insidequoteartist{
-        transform: translate( -70px, -600px);
-        width: 50%;
-        height: 0px;
-    }
+  
 
 }
 
@@ -1302,6 +1325,10 @@ padding-left: 2%;
 
 }
 
+.decorationcv{
+    text-decoration: none;
+    color: var(--mauvenoir);
+}
 
 /*------------ PROJETS -----------*/
 
