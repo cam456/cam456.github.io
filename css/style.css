@@ -1315,7 +1315,6 @@ padding-left: 2%;
   .containerprojet1{
     padding-top: 2vh;
     padding-bottom: 2vh;
-    background-color: var(--jaune);
     padding-top: 2vh;
     padding-bottom: 1.5vh;
 }
@@ -1421,4 +1420,60 @@ padding-left: 2%;
     font-size: 2.5vh;
     color: var(--mauvenoir);
     padding: 2vh;
+  }
+
+  .videoipadversion {
+    display: none;
+  }
+
+ /*------------ ipad version -----------*/
+
+
+  @media screen and (min-width: 768px) {
+
+    
+    .pg1video{
+        padding: 0.5vh;
+    }
+    
+    .tiktok{
+        display: flex;
+        justify-content: center;
+        padding-left: 5vh;
+    }
+    
+      .containerprojet1{
+       display: none;
+    }
+     
+    .titreprojet{ 
+        font-size: 10vh;
+    }
+    
+    
+    .projetprojet{
+        font-size: 10vh ;    
+    }
+
+    .pg3video3{
+        max-height: 50vh;
+    }
+    
+    .descriptionprojet{
+        font-size: 3vh;
+        padding: 3vh;
+      }
+
+      .imgaquatique{
+        width: 85vh;
+      }
+
+      .videoipadversion{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+    
+      
+    
   }
