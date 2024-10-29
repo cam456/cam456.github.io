@@ -1433,6 +1433,7 @@ padding-left: 2%;
 
     
     .pg1video{
+        max-width: 30vh;
         padding: 0.5vh;
     }
     
