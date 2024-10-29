@@ -37,20 +37,21 @@ body{
     width: 50px;
     position: fixed;
     width: 100%;
-    font-size: 20px;
+    font-size: 2vh;
     z-index: 9999;
     background: linear-gradient(#FCECC9 16%, rgba(255, 192, 203, 0)90%);
 }
 
 .star1{
     float: inline-start;
-    width: 25px;
+    width: 2vh;
     display: flex;
     margin-right: 5px;
     margin-left: 5px;
 
 }
 .nom{
+    font-size: 2vh;
     font-family: barlowmedium;
     color: var(--mauvenoir);
     float: inline-start;
@@ -236,7 +237,7 @@ main{
 
 .titreimg{
     width: 100%;
-    max-width: 600px;
+    max-width: 500vh;
     height: auto;
   
 }
@@ -253,7 +254,7 @@ main{
 
 .moiimg{
     width: 100%;
-    max-width: 500px;
+    max-width: 500vh;
     height: auto;
     
 }
@@ -288,7 +289,7 @@ main{
     border-radius: 5px;
     padding: 10px;
     width: 100%;
-    max-width: 150px;
+    max-width: 150vh;
     height: auto;
     
 }
@@ -442,7 +443,7 @@ main{
     font-family:bagel ;
     color: var(--jaune);
     text-shadow: 2px 2px 3px rgba(16, 3, 20, 0.39);
-    font-size: 35px ;
+    font-size: 10px ;
 }
 
 /*--------- container img contact --------*/
