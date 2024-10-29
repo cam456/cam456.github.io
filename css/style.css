@@ -1651,3 +1651,9 @@ padding-left: 2%;
   }
 
   
+   /*------------ footer -----------*/
+
+   .footer{
+    height: 500px;
+    background-color: var(--jaune);
+  }
