@@ -1713,6 +1713,8 @@ padding-left: 2%;
     border-radius: 25px;
     border-width: 1.2vh;
     border-style: solid;
+    transition: background-color 0.5s, border-color 0.5s ;
+    
 }
 
 .navfooter:visited{
@@ -1723,16 +1725,154 @@ padding-left: 2%;
     border-color: var(--mauvenoir);
     background-color: var(--mauvenoir);
     color: var(--jaune);
+    
 }
 
 .contourfooternav{
     padding: 1.5vh;
+    
 }
 
-.info .footer{
+.footertext{
+    text-decoration: none;
+    color: var(--mauvenoir);
+    border-color: var(--jaune);
+    border-radius: 25px;
+    border-width: 1.2vh;
+    border-style: solid;
+    transition: background-color 0.5s, border-color 0.5s ;
+}
+
+.footertext:hover{
+    text-decoration: none;
+    border-color: var(--mauvenoir);
+    background-color: var(--mauvenoir);
+    color: var(--jaune);;
+}
+
+.footertext:visited{
     text-decoration: none;
 }
 
-.info .footer:visited{
-    text-decoration: none;
+@media screen and (min-width: 768px) {
+
+    .imgandcontactlink{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .imgfoot{ 
+        padding-bottom: 1vh;
+      }
+      .imgfooter{
+        max-width: 40vh;
+      }
+    
+      .titremecontacter{
+        font-size: 6vh;   
+    }
+
+    .titrenavigation{
+        font-size: 4.5vh;
+    }
+
+    
+    .navigation2{
+        font-family: barlowmedium;
+        color: var(--mauvenoir);
+        font-size: 4vh;
+        
+    }
+    
+    
+    .footertext{
+        text-decoration: none;
+        font-size: 2.5vh;
+        color: var(--mauvenoir);
+        border-color: var(--jaune);
+        border-radius: 25px;
+        border-width: 1.2vh;
+        border-style: solid;
+        transition: background-color 0.5s, border-color 0.5s ;
+    }
+    
+    .footertext:hover{
+        text-decoration: none;
+        border-color: var(--mauvenoir);
+        background-color: var(--mauvenoir);
+        color: var(--jaune);;
+    }
+    
+    .footertext:visited{
+        text-decoration: none;
+    }
+
+    .footercontactcontainer{
+        padding-left: 8vh;
+    }
+}
+
+
+@media screen and (min-width: 1600px) {
+
+    .imgcontactnavigation{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .navigationdesktop{
+        padding-left: 10vh;
+    }
+    .imgfoot{ 
+        padding-bottom: 1vh;
+      }
+      .imgfooter{
+        max-width: 70vh;
+      }
+    
+      .titremecontacter{
+        font-size: 6vh;   
+    }
+
+    .titrenavigation{
+        font-size: 4.5vh;
+    }
+
+    
+    .navigation2{
+        font-family: barlowmedium;
+        color: var(--mauvenoir);
+        font-size: 4vh;
+        
+    }
+    
+    
+    .footertext{
+        text-decoration: none;
+        font-size: 3vh;
+        color: var(--mauvenoir);
+        border-color: var(--jaune);
+        border-radius: 25px;
+        border-width: 1.2vh;
+        border-style: solid;
+        transition: background-color 0.5s, border-color 0.5s ;
+    }
+    
+    .footertext:hover{
+        text-decoration: none;
+        border-color: var(--mauvenoir);
+        background-color: var(--mauvenoir);
+        color: var(--jaune);;
+    }
+    
+    .footertext:visited{
+        text-decoration: none;
+    }
+
+    .footercontactcontainer{
+        padding-left: 8vh;
+    }
 }
