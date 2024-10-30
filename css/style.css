@@ -534,6 +534,8 @@ main{
 
 .info{
     margin-top: 0px;
+    padding-top: 0.5vh;
+    padding-bottom: 2vh;
 }
 
 .infoimg{
@@ -542,6 +544,7 @@ main{
     width: auto;
     margin: 0;
     padding-right: 10px;
+    
 }
 .contact{
     margin-top: 0px;
