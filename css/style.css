@@ -1349,10 +1349,50 @@ padding-left: 2%;
     width: 30vh;
 }
 
+.voirvideo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--mauvenoir);
+    font-family:bagel ;
+    font-size: 2.5vh;
+    transition: color 0.5s;
+    text-shadow: 1px 1px 1.5px rgba(16, 3, 20, 0.39);
+}
+
+.voirvideo:hover{
+    color: var(--bleu);
+   
+}
+
+
+.voirvideo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--mauvenoir);
+    font-family:bagel ;
+    font-size: 2.5vh;
+    transition: color 0.5s;
+    text-shadow: 1px 1px 1.5px rgba(16, 3, 20, 0.39);
+   
+}
+
+.voirvideo2:hover{
+    color: var(--bleu);
+   
+}
+
 .tiktok{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding-left: 5vh;
+    
+    
 }
 
   .containerprojet1{
