@@ -469,6 +469,8 @@ main{
     font-size: 5vh ;
 }
 
+
+
 /*--------- container img contact --------*/
 
 .contactcontainerfull{
@@ -499,6 +501,9 @@ main{
     height: auto;
 
 }
+
+
+
 
 .imgmoicontact{
     border-top-left-radius: 20px;
@@ -532,6 +537,7 @@ main{
 }
 
 .infoimg{
+    text-decoration: none;
     height: 2vh;
     width: auto;
     margin: 0;
