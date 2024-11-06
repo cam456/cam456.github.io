@@ -224,6 +224,9 @@ main{
 
 
 
+
+
+
 .titre1{
     display: flex;
     flex-direction: column;
@@ -435,7 +438,7 @@ main{
     .quoteartiste{
         display: none;
     }
-    /*---------- A refaire ----------*/
+    
   
 
 }
@@ -446,11 +449,20 @@ main{
 /*---------- A PROPOS ----------*/
 
 
-.apropos{
+.apropos {
     position: relative;
     background-image: radial-gradient(var(--bleu) 90%, var(--bleu));
     background-size: cover;
+    transform: translateY(150px); /* Hidden initially */
+    opacity: 0; /* Hidden initially */
+    transition: 2s all ease;
 }
+
+.apropos.active {
+    transform: translateY(0); /* Final position */
+    opacity: 1; /* Fully visible */
+}
+
 /*--------- container de tout a propos --------*/
 .imagetextapropos{
     display: flex;
@@ -757,7 +769,18 @@ main{
 
 
 /*--------------------------- CV ---------------------------*/
+.cv{
+    transform: translateY(150px); /* Hidden initially */
+    opacity: 0; /* Hidden initially */
+    transition: 2s all ease;
 
+}
+
+.cv.active {
+    transform: translateY(0); /* Final position */
+    opacity: 1; /* Fully visible */
+
+}
 /*--------- langues --------*/
 
 .langues{
@@ -1340,6 +1363,16 @@ padding-left: 2%;
 }
 
 /*------------ PROJETS -----------*/
+.projet{
+    transform: translateY(150px); /* Hidden initially */
+    opacity: 0; /* Hidden initially */
+    transition: 2s all ease;
+}
+
+.projet.active {
+    transform: translateY(0); /* Final position */
+    opacity: 1; /* Fully visible */
+}
 
 .encadrementprojets1{
     display: flex;
@@ -1736,6 +1769,16 @@ padding-left: 2%;
 
   
    /*------------ footer -----------*/
+   .footers{
+    transform: translateY(150px); /* Hidden initially */
+    opacity: 0; /* Hidden initially */
+    transition: 2s all ease;
+   }
+
+   .footers.active {
+    transform: translateY(0); /* Final position */
+    opacity: 1; /* Fully visible */
+}
 
    footer{
     height: fit-content;
