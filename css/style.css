@@ -901,7 +901,7 @@ main{
     color: var(--mauvenoir);
     font-family: barlowextrabold;
     font-size: 2vh;
-    padding-left: 1vh;
+    padding-left: 1.5vh;
     padding-right: 1vh;
 }
 
@@ -936,6 +936,7 @@ main{
     font-family: barlowmedium;
     font-size: 1.5vh;
     padding-left: 7vh;
+    padding-right: 1.2vh;
 }
 
 
@@ -955,11 +956,12 @@ main{
     background-size: contain;
     padding-bottom: 2vh;
     width: 100%;
-    max-width: 42vh;
+    max-width: 28vh;
     height: auto;
     border-radius: 25px;
     box-shadow: 2px 2px 3px rgba(16, 3, 20, 0.39);
-
+    padding-left: 2vh;
+    padding-right: 2vh;
     
 }
 
@@ -967,14 +969,20 @@ main{
     display: flex;
     flex-direction: column;
     width: 100%; 
- 
+
 }
 
 .imglogiciel{
-    width: 100%;
+    width: 6.5vh;
     height: auto;
-    max-width: 15vh;
+    transition: 0.5s;
 }
+
+.imglogiciel:hover{
+    width: 7.5vh;
+    height: auto;
+}
+
 
 .imgcontainers{
     padding-top: 3vh;
@@ -997,32 +1005,40 @@ main{
     text-align: center;
     position: relative;
     padding-top: 5vh;
+    padding-bottom: 2vh;
 }
 
 .moncv{
+    
     color: var(--mauvenoir);
+    transition: color 1s;
     font-family: bagel;
     background-color: var(--bleu);
     border-radius: 25px;
     margin: auto;
     font-size: 2.5vh;
-    box-shadow: 2px 2px 3px rgba(16, 3, 20, 0.39);
+    box-shadow: 2px 2px 4px rgba(16, 3, 20, 0.39);
     width: 100%;
     max-width: 25vh;
     height: auto;
     text-shadow: 2px 2px 3px rgba(16, 3, 20, 0.39);
+   
 }
+
+.moncv :hover{
+    color: var(--jaune);
+}
+
+
 .moncvtext{
     padding-top: 1vh;
     padding-bottom: 1vh;
     margin-top: 0px;
     margin-bottom: 0px;
     text-decoration: none;
+    
 }
 
-.moncv :hover{
-    color: var(--jaune);
-}
 
 .hrefpdf{
     color: var(--mauvenoir);
@@ -1141,17 +1157,17 @@ main{
 
 
 .educationcontainer2{
-    max-width: 60vh;   
+    max-width: 70vh;   
 }
 
 .anneecole{
     
-    font-size: 2.3vh;
+    font-size: 2.8vh;
 
 }
 
 .nomecole{
-    font-size: 1.8vh; 
+    font-size: 2vh; 
     
 }
 
@@ -1160,28 +1176,29 @@ main{
 }
 
 .nomprogram{
-    font-size: 1.8vh;
-    padding-left: 8vh;
+    font-size: 2vh;
+    padding-left: 8.8vh;
    
 }
 
 .descriptionprogram{
-    font-size: 1.8vh;
-    padding-left: 8vh;
+    font-size: 2.2vh;
+    padding-left: 8.8vh;
 }
 
 /*------- experience -------*/
 
 .experiencecontainer2{
-    max-width: 60vh;
+    max-width: 70vh;
 }
 
 .nomwork{
-    font-size: 1.8vh;
+    font-size: 2vh;
 }
 
 .anner{
-    font-size: 2.3vh;
+    font-size: 2.9vh;
+    padding-left: 5vh;
 }
 
 .nomposte{
@@ -1190,8 +1207,8 @@ main{
 
 
 .point{
-    font-size: 1.8vh;
-    padding-left: 7.5vh;
+    font-size: 2vh;
+    padding-left: 13vh;
 }
 
 /*------- langues -------*/
@@ -1258,8 +1275,11 @@ main{
 
 
 /*------- cv -------*/
-
+.moncvcontainer{
+    padding-bottom: 10px;
+}
 .moncv{
+    
     max-width: 30vh;
    
 }
@@ -1271,6 +1291,8 @@ main{
 
 
 .logicielcontainer2 {
+    padding-left: 2vh;
+    padding-right: 2vh;
     max-width: 50vh;   
 }
 .imglogiciel{
@@ -1287,17 +1309,17 @@ main{
 
 
 .educationcontainer2{
-    max-width: 60vh;   
+    max-width: 70vh;   
 }
 
 .anneecole{
 
-    font-size: 2.3vh;
+    font-size: 3vh;
 
 }
 
 .nomecole{
-    font-size: 1.8vh; 
+    font-size: 2.2vh;
 
 }
 
@@ -1306,53 +1328,54 @@ main{
 }
 
 .nomprogram{
-    font-size: 1.8vh;
-    padding-left: 8vh;
+    font-size: 2.2vh;
+    padding-left: 9.2vh;
 
 }
 
 .descriptionprogram{
     font-size: 1.8vh;
-    padding-left: 8vh;
+    padding-left: 9.2vh;
 }
 
 /*------- experience -------*/
 
 
 .experiencecontainer2{
-    width: 60vh;
+    width: 70vh;
     max-width: 80vh;
  
 }
 
 .nomwork{
-font-size: 2vh;
+    font-size: 2.2vh;
 }
 
 .anner{
-font-size: 2.6vh;
+    font-size: 3vh;
+    padding-right: 1vh;
 }
 
 .nomposte{
-font-size: 2vh;
+    font-size: 2vh;
 }
 
 
 .point{
-font-size: 2vh;
-padding-left: 8vh;
+    font-size: 2vh;
+    padding-left: 13vh;
 }
 
 /*------- langues -------*/
 .langues{
-font-size: 2vh;
-max-width: 25vh;
+    font-size: 2vh;
+    max-width: 25vh;
 }
 
 .anglais{
-padding: 1%;
-padding-right: 5%;
-padding-left: 2%;
+    padding: 1%;
+    padding-right: 5%;
+    padding-left: 2%;
 }
 
 }
@@ -1583,7 +1606,7 @@ padding-left: 2%;
     }
     
     .descriptionprojet{
-        font-size: 3vh;
+        font-size: 2.5vh;
         padding: 3vh;
       }
 
@@ -1635,7 +1658,7 @@ padding-left: 2%;
     }
     
     .descriptionprojet{
-        font-size: 3.5vh;
+        font-size: 3vh;
         padding: 3vh;
       }
 
