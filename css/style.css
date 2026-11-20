@@ -194,7 +194,7 @@ body{
         height: 3.5vh;
         padding-top: 8px;
         background-position: 200px 200px;
-        background: linear-gradient(#FCECC9 80%, rgba(255, 192, 203, 0)100%);
+        background: linear-gradient(#FCECC9 85%, rgba(255, 192, 203, 0)100%);
     }
     .menu-hamburger{
         display: none;
@@ -236,14 +236,31 @@ main{
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
+    display: block;
+    margin:  auto;
+    
+}
+
+
+
+.titreimageencadrement{
+     justify-content: center;
+     flex-direction: row;
+    width: 100%;
+    max-width: 500vh;
+    margin: 0 auto;
     
 }
 
 .titreimg{
+     justify-content: center;
+     flex-direction: row;
     width: 100%;
     max-width: 500vh;
     height: auto;
-  
+    display: block;
+    margin: 0 auto;
+    
 }
 
 .moi1{
@@ -263,19 +280,52 @@ main{
     
 }
 
+.information {
+    font-size: 18px;
+    font-family: barlowmedium;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #886cb9b7;
+    border-radius: 5px;
+    max-width:300px;
+    height: 20%;
+}
 
-.petittext{
+.insideinformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    white-space: nowrap;
+}
+
+.infocouleur {
+    text-decoration: none;
+    color: var(--jaune); 
+
+}
+.infocouleur:hover {
+    color: var(--mauvenoir);
+}
+
+
+
+.petittext {
     font-size: 15px;
     font-family: barlowmedium;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 0;
-    padding-left: 5px;
-    padding-right: 5px;
-    transform: translate(0px, -40px);
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #886cb9b7;
+    border-radius: 5px;
+    width: 15%;
 }
-
 .petitelink {
     text-decoration: none;
     color: var(--jaune); 
@@ -285,31 +335,32 @@ main{
     color: var(--mauvenoir);
 }
 
-.insidepetittext{
-   
-    text-align: center;
-    justify-content: center;
-    background-color: #886cb9b7;
-    border-radius: 5px;
+.insidepetittext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 10px;
-    width: 100%;
-    max-width: 15vh;
-    height: auto;
+    white-space: nowrap;
+    gap: -5px;
     
 }
+
 .quoteartiste2{
     display: none;
 }
 
-.quoteartiste{
-    text-align: center;
-    justify-content: center;
+.quoteartiste {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     padding-bottom: 2vh;
     padding-left: 2vh;
     padding-right: 2vh;
+    width: 100%;
+    box-sizing: border-box;
 }
-
 .insidequoteartist{
     font-size: 2vh;
     font-family: barlowmedium;
@@ -357,8 +408,11 @@ main{
         max-width: 80vh;
         height: auto;
     }
-    .petittext{
-        font-size: 30px;
+    
+    .information {
+        font-size: 18px;
+        width: 300px;
+        max-width:300px;
     }
 
     .insidepetittext{
@@ -405,34 +459,27 @@ main{
     }
 
 
-    .insidepetittext{
+    .insideinformation{
         max-width: 20vh;
           
     }
-    .quoteartiste2{
-        padding-left: 12px;
-        padding-right: 12px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        text-align: center;
-        font-style: italic;
-        margin-top: 0;
-        width: 0%;
-        padding-bottom: 50px; 
-    }
-    
-    .quoteartiste2{
-        width: 90%;
-        
-        
-        
-    }
+    .quoteartiste2 {
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
     
     .insidequoteartist2{
         font-size: 1.8vh;
         font-family: barlowmedium;
-        font-style: italic;
         color: var(--mauve);
         
     }
